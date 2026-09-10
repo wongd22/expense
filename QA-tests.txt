@@ -1,0 +1,21 @@
+
+> expense-lens@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ signed amounts use exact minor units (1.098476ms)
+✔ explicit Hong Kong parsing and date validation (2.56408ms)
+✔ schema, bad rows, unknown payer and signed duplicate records (1.20724ms)
+✔ header names, not positions, determine mapping (0.18321ms)
+✔ non-overlapping Family/Personal totals and payer rules (0.305533ms)
+✔ month boundaries, aligned dates, leap and year transitions (0.297372ms)
+✔ zero/negative percentages are safe (0.167206ms)
+✔ insights link concrete source records and require history (12.608455ms)
+✔ live mode denies unauthenticated access and validates OAuth state (184.223345ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 331.524271
